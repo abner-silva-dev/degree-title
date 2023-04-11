@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import Navegation from "./components/navegation/navegation.component";
+import Managment from "./components/management/management";
+import Search from "./components/search/search.component";
+import RevelSection from "./components/revel-section/revel-section.component";
 
-function App() {
+import "./App.css";
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <RevelSection>
+      <div className="section__interactive">
+        <Navegation />
+        <main className="main">
+          <Search />
+          <Managment />
+        </main>
+      </div>
+    </RevelSection>
   );
-}
+};
 
 export default App;
