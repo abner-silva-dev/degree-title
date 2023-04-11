@@ -31,12 +31,13 @@
 
 .nav__item:link,
 .nav__item:visited {
+  color: #555;
+  font-weight: 600;
+  text-decoration: none;
+  display: block;
+
   font-size: 2rem;
   padding: 1.2rem;
-  font-weight: 600;
-  display: block;
-  text-decoration: none;
-  color: #555;
 }
 
 .nav__item--active {
