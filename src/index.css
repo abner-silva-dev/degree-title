@@ -104,3 +104,7 @@ body {
 ul {
   list-style: none;
 }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

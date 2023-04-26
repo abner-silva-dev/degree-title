@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState, Fragment } from "react";
+import React, { useEffect, useRef } from "react";
 import { useVisibilityHook } from "react-observer-api";
 
 import "./revel-section.style.css";
@@ -18,7 +18,7 @@ const RevelSection = ({ children }) => {
   }, [isVisible]);
 
   return (
-    <div ref={setElement} className="hola">
+    <div ref={setElement}>
       {React.Children.map(children, (child, i) => {
         const currentEl = React.cloneElement(child, {
           ref: parentEl,
