@@ -1,4 +1,3 @@
-import { useEffect, useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { setActive } from "./../../utils/redux/slice/navegation/navegationSlice";
 import { Link } from "react-router-dom";

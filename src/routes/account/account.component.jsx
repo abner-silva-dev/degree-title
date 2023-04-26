@@ -1,5 +1,3 @@
-import RevelSection from "./../../components/revel-section/revel-section.component";
-import Navegation from "./../../components/navegation/navegation.component";
 import { useAuth } from "../../context/authContext";
 import "./account.style.css";
 import logo from "../../assets/logos/logo-profile.png";

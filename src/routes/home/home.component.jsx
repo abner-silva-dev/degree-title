@@ -8,7 +8,7 @@ import { Outlet } from "react-router-dom";
 
 export function Home() {
   const { loading } = useAuth();
-  const { active } = useSelector((state) => state.navegation);
+  // const { active } = useSelector((state) => state.navegation);
 
   if (loading) return <h1 className="text-3xl text-white">Cargando...</h1>;
 
