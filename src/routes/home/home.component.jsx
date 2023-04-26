@@ -1,7 +1,7 @@
 import RevelSection from "./../../components/revel-section/revel-section.component";
 import Navegation from "./../../components/navegation/navegation.component";
 import { useAuth } from "../../context/authContext";
-import { useSelector } from "react-redux";
+// import { useSelector } from "react-redux";
 
 import "./home.style.css";
 import { Outlet } from "react-router-dom";
